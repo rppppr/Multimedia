@@ -1,0 +1,118 @@
+/* Style podstawowe i do rozdzielczości 767px */
+header
+{
+    position: fixed;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    top:0;
+    width: 100%;
+    margin:0 auto;
+    z-index: 1;
+}
+.logo
+{
+    display: flex;
+    margin:12px;
+}
+.logo .sygnet { display:none; }
+.nav-list-button
+{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin:12px;
+    font-size: 3em;
+    z-index: 2;
+}
+nav ul
+{
+    list-style: none;
+    position: absolute;
+    background: white;
+    width: 100%;
+    top:-5px;
+    right: -200%;
+    transition: all .5s ease-in-out;
+
+}
+.nav-list li
+{
+    font-family: 'Baloo';
+    font-size: 1.5em;
+    padding:0 12px;
+}
+.nav-list li a,
+.logo
+{
+    color:black;
+    text-decoration: none;
+}
+.nav-list li a { position:relative; }
+.nav-list li a::before,
+.nav-list li a::after
+{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    opacity:0;
+    transition: all .5s ease-in-out;
+}
+.nav-list li a::before
+{
+    left:-20%;
+    top:-20%;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+.nav-list li a::after
+{
+    right:-20%;
+    bottom:-20%;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.nav-list li a:hover::before, .nav-list li a:hover::after { opacity: 1; }
+.nav-list li a:hover::before
+{
+    top:0;
+    left:-3px;
+}
+.nav-list li a:hover::after
+{
+    bottom:0;
+    right:-3px;
+}
+.active-link
+{
+    color: red !important;
+}
+@media (min-width: 768px)
+{
+    .nav-list-button { display: none !important; }
+    .nav-list
+    {
+        display: block;
+        position: relative;
+        right: 0;
+        top: 0;
+        margin:24px;
+    }
+    .nav-list li { display: inline; }
+}
+@media (min-width: 1024px)
+{
+    .logo img { width:70px; height: 70px; }
+    .logo .sygnet
+    {
+        display: block;
+        position: absolute;
+        font-family: 'Qwigley';
+        font-size: 3em;
+        top:-15px;
+        left: 84px;
+    }
+    .nav-list {top: 5px;}
+}
