@@ -36,9 +36,10 @@
     font-family: 'Raleway';
     text-align: center;
     color:white;
-    background: black;
+    /*background-image: linear-gradient(to bottom, #000000, #370222, #5f0051, #760094, #5d12eb); */
+    background-image: linear-gradient(to bottom, #000000, #240016, #37002e, #400052, #2c0081);
     width: 100%;
-    height:100%;
+    padding-bottom: 25px;
 }
 .introduction h2
 {
@@ -48,6 +49,93 @@
 }
 .introduction p
 {
+    text-align: justify;
     font-size: 1.4em;
     padding: 0 5%;
+}
+.introduction-quote
+{
+    font-family: 'Lora';
+    position: relative;
+    background: white;
+    color:black;
+    margin: 0 auto;
+    padding: 15px;
+    left: -200%;
+    font-size: 1.5em;
+    width: 80%;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    transition: all 1s ease-in-out;
+}
+.introduction-quote::before { position: absolute; }
+.introduction-quote::before
+{
+    content: '';
+    background: grey;
+    left:0;
+    top:0;
+    width: 10px;
+    height: 100%;
+}
+.about-me-story
+{
+    font-family: 'Raleway';
+    margin: 10px auto;
+}
+.about-me-story h3 { font-size: 2em }
+.oponents
+{
+    background-image: linear-gradient(to bottom, #2c0081, #400052, #37002e, #240016, #000000);
+    text-align: center;
+    color:white;
+}
+.oponents h3, .oponents p { font-family: 'Raleway'; }
+.oponents h3
+{
+    font-size: 3em;
+    margin:0 auto;
+    padding: 5px;
+}
+.oponents p { padding-bottom: 15px; }
+.oponents-item
+{
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: 300px;
+}
+.oponents-item img
+{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out;
+}
+.oponents-item-description
+{
+    position: absolute;
+
+    color:white;
+    font-size: 2em;
+    top:50%;
+    left:50%;
+    opacity:0;
+    transform: translate(-50%,-50%);
+    transition: all .5s ease-in-out;
+}
+.oponents-item-description p { font-family: 'Qwigley';}
+.oponents-item:hover img { filter: brightness(30%); }
+.oponents-item:hover .oponents-item-description { opacity:1; }
+@media (min-width: 768px)
+{
+
+}
+@media (min-width: 1024px)
+{
+    .introduction-quote { width: 40%; }
+    .background-description h2 { font-size: 4em; }
+    .background-description h3 { font-size: 3em; }
+    .introduction p { text-align: center; }
 }

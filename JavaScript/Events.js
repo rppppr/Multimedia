@@ -17,3 +17,13 @@ navButton.addEventListener('click',()=>
     }
     console.log(wasClicked);
 });
+
+const quote = document.getElementsByClassName('introduction-quote')[0];
+
+window.addEventListener('scroll',()=>
+{
+    if(scrollY > quote.offsetTop - 400)
+    {
+        quote.classList.add('show-quote')
+    }
+});
