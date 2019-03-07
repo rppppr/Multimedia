@@ -43,7 +43,7 @@
 }
 .introduction h2
 {
-    font-size: 3em;
+    font-size: 2.5em;
     padding:5% 0 0 0;
     margin: 0;
 }
@@ -100,7 +100,7 @@
     margin:0 auto;
     padding: 5px;
 }
-.oponents h2 { font-size: 3em}
+.oponents h2 { font-size: 2.5em}
 .oponents p { padding-bottom: 15px; }
 .oponents-item
 {
@@ -110,7 +110,7 @@
     max-width: 300px;
     margin:auto;
 }
-.oponents-item:last-child,.oponents-item:nth-child(2) { padding-top:80px; }
+.oponents-item:last-child,.oponents-item:nth-child(2) { padding-top:120px; }
 .oponents-item h2
 {
     color: white;
@@ -149,7 +149,7 @@
 }
 .chess-favourites h2
 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin:0;
     padding:25px;
 }

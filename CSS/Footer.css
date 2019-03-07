@@ -1,6 +1,6 @@
 footer
 {
-    text-align: center;
+    text-align: justify;
     color:white;
     font-family: 'Raleway';
     background-image: linear-gradient(to bottom, #000000, #43151f, #841d2a, #c42d27, #ff4d00);
@@ -22,4 +22,8 @@ footer
     width: 100%;
     background: black;
     padding:1px 0;
+}
+@media (min-width: 768px)
+{
+    footer { align-items: center; }
 }
