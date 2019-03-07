@@ -194,4 +194,5 @@
     .oponents h2:first-child { padding-bottom: 25px; }
     .oponents-tip { display:none; }
     .oponents-item { max-width: 350px; max-height: 350px;}
+    .oponents-item:first-child, .oponents-item:nth-child(2),.oponents-item:last-child { padding:60px 0; }
 }
