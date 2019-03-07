@@ -1,9 +1,10 @@
-.oponents-container
+.oponents-container, .favourites-container
 {
     display:grid;
     justify-items: center;
     justify-content: center;
     grid-row-gap: 15px;
+    grid-column-gap: 25px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
 }
@@ -11,9 +12,10 @@
 .oponent-2 { grid-row:2/3; }
 .oponent-3 { grid-row:3/4; }
 
+
 @media (min-width: 768px)
 {
-    .oponents-container
+    .oponents-container, .favourites-container
     {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr;
