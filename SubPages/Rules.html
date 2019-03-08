@@ -37,27 +37,376 @@
             </ul>
         </nav>
     </header>
+    <section class="rules">
+        <div class="rules-introduction">
+            <h2>
+                Zasady gry nie są trudne!
+            </h2>
+            <p>
+                Gracze mają do dyspozycji 6 bierek, odpowiednio: 8 pionów, 2 wieże, 2 skoczki, 2 gońce, hetmana i króla.
+            </p>
+            <p>
+                (Kliknij na jedną z bierek, aby dowiedzieć się o niej więcej.)
+            </p>
+        </div>
+        <div class="pieces">
+            <div class="pieces-container">
+                <div class="pieces-item piece-1">
+                    <i class="fas fa-chess-pawn"></i>
+                    <h3>Pionek</h3>
+                </div>
+                <div class="pieces-item piece-2">
+                    <i class="fas fa-chess-knight"></i>
+                    <h3>Skoczek</h3>
+                </div>
+                <div class="pieces-item piece-3">
+                    <i class="fas fa-chess-bishop"></i>
+                    <h3>Goniec</h3>
+                </div>
+                <div class="pieces-item piece-4">
+                    <i class="fas fa-chess-rook"></i>
+                    <h3>Wieża</h3>
+                </div>
+                <div class="pieces-item piece-5">
+                    <i class="fas fa-chess-queen"></i>
+                    <h3>Hetman</h3>
+                </div>
+                <div class="pieces-item piece-6">
+                    <i class="fas fa-chess-king"></i>
+                    <h3>Król</h3>
+                </div>
+            </div>
+        </div>
+        <div class="pieces-rules">
+            <h3>
+                Piony
+            </h3>
+            <div class="pawn-moves-container">
+                <div class="piece-move pawn-1">
+                    <h4>
+                        Ruchy podstawowe:
+                    </h4>
+                    <p>
+                        Pion może poruszyć się z pozycji wyjściowej o jedno lub w pola do przodu w linii prostej,
+                        następnie już tylko o jedno do przodu.
+                    </p>
+                    <div class="moves-image pawn-basic-moves">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="piece-move pawn-2">
+                    <h4>
+                        Bicie w przelocie:
+                    </h4>
+                    <p>
+                        Jeżeli wrogi pion wykona ruch o 2 pola do przodu i znajdzie się przez to
+                        w tym samym rzędzie co nasz pion, możemy zbić go w następujący sposób:
+                    </p>
+                    <div class="moves-image pawn-special-move">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="piece-move pawn-3">
+                    <h4>
+                        Awans:
+                    </h4>
+                    <p>
+                        Kiedy nasz pion znajdzie się na przeciwnym końcu planszy,
+                        niż pozycja startowa, awansuje na dowolną figurę (poza królem).
+                    </p>
+                    <div class="moves-image pawn-promotion">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="light-pieces-container">
+            <div class="pieces-rules">
+                <h3>
+                    Skoczek
+                </h3>
+                <div class="piece-move knight-1">
+                    <h4>
+                        Ruchy podstawowe:
+                    </h4>
+                    <p>
+                        Skoczki poruszają się po planszy, wykonując ruchy podobne do litery "L".
+                    </p>
+                    <div class="moves-image knight-basic-moves">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="pieces-rules">
+                <h3>
+                    Goniec
+                </h3>
+                <div class="piece-move knight-1">
+                    <h4>
+                        Ruchy podstawowe:
+                    </h4>
+                    <p>
+                        Gońce białopolowe mogą poruszać się po białych przekątnych (diagonalach),
+                        analogicznie czarne po czarnych.
+                    </p>
+                    <div class="moves-image knight-basic-moves">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="pieces-rules">
+                <h3>
+                    Wieża
+                </h3>
+                <div class="piece-move rook-1">
+                    <h4>
+                        Ruchy podstawowe:
+                    </h4>
+                    <p>
+                        Wieża porusza się na dowolną ilość pól w pione lub poziomie planszy.
+                    </p>
+                    <div class="moves-image rook-basic-moves">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pieces-rules">
+            <h3>
+                Hetman
+            </h3>
+            <div class="piece-move queen-1">
+                <h4>
+                    Ruchy podstawowe:
+                </h4>
+                <p>
+                    Hetman zachowuje się jak połączenie wieży oraz gońca.
+                </p>
+                <div class="moves-image rook-basic-moves">
+                    <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                    <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                    <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="pieces-rules">
+            <h3>
+                Król
+            </h3>
+            <div class="king-moves-container">
+                <div class="piece-move king-1">
+                    <h4>
+                        Ruchy podstawowe:
+                    </h4>
+                    <p>
+                        Król może poruszać się w dowolnym kierunku o jedno pole, zachowuje się więc jak mini-hetman.
+                    </p>
+                    <div class="moves-image rook-basic-moves">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="piece-move king-2">
+                    <h4>
+                        Roszada:
+                    </h4>
+                    <p>
+                        Kiedy między wieżą a królem jest wolna przestrzeń, a żadna z tych figur nie była wcześniej
+                        poruszana, można wykonać roszadę:
+                    </p>
+                    <div class="moves-image rook-basic-moves">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="piece-move king-3">
+                    <h4>
+                        Szach:
+                    </h4>
+                    <p>
+                        Kiedy któraś z wrogich figur "celuje" swoim zbiciem w króla,
+                        król musi usunąć się z zagrożonego pola
+                    </p>
+                    <div class="moves-image rook-basic-moves">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advanced-rules">
+        <div class="rules-introduction">
+            <h2>
+                Kiedy wiesz, jak się poruszać, dowiedz się, jak wygrywać!
+            </h2>
+            <p>
+                Poniżej zaprezentuję Ci, jak zbijać figury i jak zamatować króla.
+            </p>
+            <div class="taking-container">
+                <div class="taking-item taking-1">
+                    <h3>
+                        Bicie pionem:
+                    </h3>
+                    <p>
+                        Pion, jako jedyna bierka w grze, zbija w innym kierunku, niż kierunek ruchu.
+                        Pion zbija na skos.
+                    </p>
+                    <div class="taking-image pawn-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="taking-item taking-2">
+                    <h3>
+                        Bicie skoczkiem:
+                    </h3>
+                    <p>
+                        Skoczek zbija bierkę i zajmuje jej miesjce zgodnie ze swoim ruchem.
+                    </p>
+                    <div class="taking-image pawn-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="taking-item taking-3">
+                    <h3>
+                        Bicie gońcem:
+                    </h3>
+                    <p>
+                        Dzięki szybkiemu rozwojowi, gońce świetnie nadają się do zastawiania
+                        "ataków z odsłony", np:. tak jak poniżej:
+                    </p>
+                    <div class="taking-image bishop-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="taking-item taking-4">
+                    <h3>
+                        Bicie wieżą:
+                    </h3>
+                    <p>
+                        Wieże świetnie kontrolują duże fragmenty planszy, zbijając figury zgodnie ze swoim ruchem.
+                    </p>
+                    <div class="taking-image pawn-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="taking-item taking-5">
+                    <h3>
+                        Bicie hetmanem:
+                    </h3>
+                    <p>
+                        Najsilniejsza bierka w grze znakomicie sprawdza się, gdy chcemy dobić rywala.
+                    </p>
+                    <div class="taking-image pawn-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="taking-item taking-6">
+                    <h3>
+                        Bicie królem:
+                    </h3>
+                    <p>
+                        Król zdecydowanie częściej broni się, niż atakuje, ale oczywiście również on potrafi
+                        zbić bierki przeciwnika.
+                    </p>
+                    <div class="taking-image pawn-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="taking-item taking-7">
+                    <h3>
+                        Szach mat:
+                    </h3>
+                    <p>
+                        Gracz, który dostanie takiego szacha, że nie może się nigdzie ruszyć królem lub zasłonić
+                        inną bierką, przegrywa.
+                    </p>
+                    <div class="taking-image pawn-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="taking-item taking-8">
+                    <h3>
+                        Pat:
+                    </h3>
+                    <p>
+                        W momencie, gdy po ruchu jednego gracza, żadna z bierek drugiego zawodnika nie może się ruszyć,
+                        następuje remis - zwany patem.
+                    </p>
+                    <div class="taking-image pawn-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="taking-item taking-9">
+                    <h3>
+                        Nieprawidłowy ruch:
+                    </h3>
+                    <p>
+                        Jeśli któryś z graczy pomyli się, wykonując ruch który nie jest powiązany z daną bierką,
+                        zgodnie z zasadami przegrywa przez walkower.
+                    </p>
+                    <div class="taking-image pawn-taking-image">
+                        <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
+                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="footer-contact">
             <h3>Jeśli chcesz się ze mną skontaktować - znajdź mnie z pomocą poniższych adresów:</h3>
             <ul>
-                <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                <li><a href=""><i class="fas fa-chess-knight"></i></a></li>
+                <li><a href="https://www.facebook.com/gotycki.gamer"><i class="fab fa-facebook"></i>  Mój Facebook</a></li>
+                <li><a href="https://lichess.org/@/dwiesik"><i class="fas fa-chess-knight"></i>  Mój profil Lichess</a></li>
                 <li><i class="fas fa-envelope"></i> rafal.stopka@edu.uekat.pl <br> lub <br>
-                    <i class="fas fa-envelope"></i>stopka.rafal@o2.pl</li>
+                    <i class="fas fa-envelope"></i> stopka.rafal@o2.pl</li>
             </ul>
         </div>
         <div class="footer-projects">
             <h3>A może chcesz zobaczyć moje inne projekty? Wtedy zajrzyj tutaj:</h3>
             <ul>
-                <li><a href="https://github.com/rppppr"><i class="fab fa-github"></i>Mój Github</a></li>
-                <li><a href="https://rppppr.github.io/Lodziarnia/html/index.html"><i class="fas fa-ice-cream"></i>Lodziarnia</a></li>
+                <li><a href="https://github.com/rppppr"><i class="fab fa-github"></i> Mój Github</a></li>
+                <li><a href="https://rppppr.github.io/Lodziarnia/html/index.html"><i class="fas fa-ice-cream"></i> Lodziarnia</a></li>
             </ul>
         </div>
         <div class="footer-copyright">
             <p>© Copyright 2019 Rafał Stopka</p>
         </div>
     </footer>
-    <script src="../JavaScript/Events.js"></script>
+    <script src="../JavaScript/RulesScripts.js"></script>
+    <script src="../JavaScript/MainScripts.js"></script>
 </body>
 </html>
