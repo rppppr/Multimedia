@@ -129,7 +129,7 @@
     position: absolute;
     color:white;
     font-size: 2em;
-    top:60%;
+    top:65%;
     left:50%;
     opacity:0;
     transform: translate(-50%,-50%);
@@ -195,4 +195,5 @@
     .oponents-tip { display:none; }
     .oponents-item { max-width: 350px; max-height: 350px;}
     .oponents-item:first-child, .oponents-item:nth-child(2),.oponents-item:last-child { padding:60px 0; }
+    .oponents-item-description { top: 50%; }
 }
