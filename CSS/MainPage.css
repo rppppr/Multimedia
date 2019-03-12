@@ -36,7 +36,6 @@
     font-family: 'Raleway';
     text-align: center;
     color:white;
-    /*background-image: linear-gradient(to bottom, #000000, #370222, #5f0051, #760094, #5d12eb); */
     background-image: linear-gradient(to bottom, #000000, #240016, #37002e, #400052, #2c0081);
     width: 100%;
     padding-bottom: 25px;
@@ -145,7 +144,7 @@
     text-align: center;
     font-family: 'Raleway';
     width: 100%;
-    background-image: linear-gradient(to bottom, #000000, #34131a, #631926, #94202b, #c42d27, #c42d27, #c42d27, #c42d27, #94202b, #631926, #34131a, #000000);
+    background-image: linear-gradient(to bottom, #000000, #240016, #37002e, #400052, #2c0081);;
 }
 .chess-favourites h2
 {
@@ -165,8 +164,8 @@
     font-size: 2em;
 }
 .button:hover { color:yellow; }
-.button-previous { left: 0; display: none; content: '<'; }
-.button-next {right:0; display: block; content: '>'; }
+.button-previous { left: 0; display: none; }
+.button-next {right:0; display: block; }
 .opening-image img, .piece-image img
 {
     max-width: 300px;

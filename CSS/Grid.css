@@ -52,6 +52,32 @@
     .piece-4 { grid-column: 1/2; grid-row: 2/3; }
     .piece-5 { grid-column: 2/3; grid-row: 2/3; }
     .piece-6 { grid-column: 3/4; grid-row: 2/3; }
+
+    .pawn-moves-container, .king-moves-container, .light-pieces-container
+    {
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+    }
+    .pawn-1, .king-1, .pieces-rules:nth-child(2) { grid-column: 1/2; grid-row: 1/2; }
+    .pawn-2, .king-2, .pieces-rules:nth-child(3) { grid-column: 2/3; grid-row: 1/2; }
+    .pawn-3, .king-3, .pieces-rules:nth-child(4) { grid-column: 3/4; grid-row: 1/2; }
+
+    .taking-container
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    .taking-1 { grid-column: 1/2; grid-row: 1/2; }
+    .taking-2 { grid-column: 2/3; grid-row: 1/2; }
+    .taking-3 { grid-column: 3/4; grid-row: 1/2; }
+    .taking-4 { grid-column: 1/2; grid-row: 2/3; }
+    .taking-5 { grid-column: 2/3; grid-row: 2/3; }
+    .taking-6 { grid-column: 3/4; grid-row: 2/3; }
+    .taking-7 { grid-column: 1/2; grid-row: 3/4; }
+    .taking-8 { grid-column: 2/3; grid-row: 3/4; }
+    .taking-9 { grid-column: 3/4; grid-row: 3/4; }
 }
 @media (min-width: 1024px)
 {
