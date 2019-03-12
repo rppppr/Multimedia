@@ -1,7 +1,4 @@
-.rules, .advanced-rules
-{
-    background-image: linear-gradient(to bottom, #FF20FF, #000000);
-}
+.rules { background-image: linear-gradient(to bottom, #2c0081, #400052, #37002e, #240016, #000000); }
 .rules-introduction
 {
     position: relative;
@@ -11,7 +8,7 @@
     color:white;
     width: 100%;
 }
-.advanced-rules { background-image: linear-gradient(to bottom, #000000, #FF20FF, #000000); }
+.advanced-rules { background-image: linear-gradient(to bottom, #000000, #240016, #37002e, #400052, #2c0081); }
 .rules-introduction h2 { font-size: 2.5em; padding-top: 30px; margin:0 }
 .pieces-container
 {
