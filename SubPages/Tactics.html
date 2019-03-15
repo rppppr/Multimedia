@@ -33,20 +33,30 @@
                 <li><a href="Rules.html">Zasady</a></li>
                 <li><a class="active-link">Taktyki</a></li>
                 <li><a href="History.html">Historia</a></li>
-                <li><a href="TheseDays.html">Szachy dzisiaj</a></li>
             </ul>
         </nav>
     </header>
     <section class="tactics">
+        <h2>
+           Zasady to jedno, ale mistrzowie wiedzą, jak połączyć je w strategię!
+        </h2>
+        <p>Zanim jednak je poznamy, przed tobą krótki test:</p>
         <div class="exercise">
             <h3>
 
             </h3>
             <div class="exercise-message">
-                <span class="transcription"></span>
-                <p>
-                    Witaj! Z tej strony Rafał, autor strony. Zanim przejdziesz do kolejnej części serwisu,
-                    proszę Cię o wykonanie krótkiego ćwiczenia, które pomoże Ci ustalić, jak radzisz sobie
+                <div class="play-message">
+                    <i class="fas fa-play go"></i>
+                    <i class="fas fa-stop stop"></i>
+                </div>
+                <span class="transcription">
+                    Wyświetl transkrypcję
+                </span>
+                <p class="transcription-text">
+                    Witaj! Z tej strony Rafał, autor strony. Ponieważ już znasz zasady i wiesz co jest celem gry,
+                    zanim przejdziesz do kolejnej części serwisu, proszę Cię o wykonanie krótkiego
+                    ćwiczenia, które pomoże Ci ustalić, jak radzisz sobie
                     z orientacją na planszy. Jeżeli znasz odpowiedź, wpisz ją proszę w pole poniżej.
                     Skup się i zaczynamy: ruch należy do białych, można zamatować przeciwnika na 2 sposoby.
                     Bierki rozstawione są następująco: biały hetman na polu H1, biała wieża na polu B1, biały król na polu E1,
@@ -54,10 +64,57 @@
                 </p>
             </div>
             <form>
-                <input type="text" class="exercise-answer">
-                <button type="button" class="exercise-answer-check"></button>
+                <input type="text" class="exercise-answer" placeholder="Mat na polu:">
+                <button type="button" class="exercise-answer-check">Sprawdź odpowiedź</button>
             </form>
         </div>
+    </section>
+    <section class="advanced-tactics">
+        <h2>
+            Zawsze pamiętaj o 3 zasadach!
+        </h2>
+        <p class="tip">
+            (Kliknij na obrazek, aby zobaczyć opis.)
+        </p>
+        <div class="tactics-container">
+            <div class="tactics-item">
+                <img src="../Images/tactic1.JPG" alt="Związanie">
+                <div class="tactic-description tactic-1 ">
+                    <p>
+                        Unieruchomienie bierki przeciwnika wyłącza ją z gry, wykorzystuj więc związanie często, najlepiej w debiutach!
+                    </p>
+                </div>
+                <h3>Związanie</h3>
+            </div>
+            <div class="tactics-item">
+                <img src="../Images/tactic2.JPG" alt="Związanie">
+                <div class="tactic-description tactic-2 ">
+                    <p>
+                        Satysfakcja z tego, że przeciwnik musi wybierać, którą ze swoich bierek ma stracić, jest gwarantowana!
+                    </p>
+                </div>
+                <h3>Widełki</h3>
+            </div>
+            <div class="tactics-item">
+                <img src="../Images/tactic3.JPG" alt="Związanie">
+                <div class="tactic-description tactic-3 ">
+                    <p>
+                        Dobra zasadzka może pokrzyżować szyki rywala i być jego gwoździem do trumny
+                    </p>
+                </div>
+                <h3>Płapki</h3>
+            </div>
+        </div>
+        <h2>
+            Rozgrywaj coraz lepsze partie!
+        </h2>
+        <p>
+            Znając zasady i podstawowe taktyki, możesz podnosić swój poziom, a w końcu zagrasz partię na takim poziomie:
+        </p>
+        <iframe width="300" height="180"
+                src="https://www.youtube.com/embed/pkzGwZBUmX0"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
     </section>
     <footer>
         <div class="footer-contact">
@@ -80,7 +137,7 @@
             <p>© Copyright 2019 Rafał Stopka</p>
         </div>
     </footer>
-    <script src="../JavaScript/MainPageScripts.js"></script>
+    <script src="../JavaScript/MainScripts.js"></script>
     <script src="../JavaScript/TacticsScripts.js"></script>
 </body>
 </html>

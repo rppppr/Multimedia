@@ -1,0 +1,122 @@
+.tactics,.advanced-tactics
+{
+    background-image: linear-gradient(to bottom, #2c0081, #400052, #37002e, #240016, #000000);
+    text-align: center;
+    font-family: 'Raleway';
+    color:white;
+}
+.tactics h2 , .advanced-tactics h2 { font-size: 2em; padding: 25px; }
+.exercise-message
+{
+    justify-content: center;
+    justify-items: center;
+}
+
+.play-message
+{
+    position: relative;
+    background: black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 25px auto;
+}
+.play-message:hover
+{
+    cursor: pointer;
+}
+.play-message i
+{
+    color:white;
+    font-size: 6em;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.exercise-message i:first-child { left:55%; }
+.exercise-message i:last-child { display:none; }
+
+.transcription
+{
+    display: block;
+    background: red;
+    width: 80%;
+    padding:10px;
+    border-radius: 20px;
+    font-size: 2em;
+    margin: 0 auto;
+}
+.transcription:hover { cursor: pointer; }
+.transcription-text
+{
+    position: relative;
+    font-size: 1em;
+    top:0;
+    left:-100%;
+    transition: all 1s ease-in-out;
+}
+.exercise-answer
+{
+    text-align: center;
+    background: black;
+    color: white;
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+}
+.exercise-answer:focus { border: 3px solid yellow; }
+.exercise-answer-check
+{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 35px;
+    border-radius: 20px;
+}
+form
+{
+    padding: 25px;
+}
+.advanced-tactics { background-image: linear-gradient(to bottom, #000000, #240016, #37002e, #400052, #2c0081); }
+.advanced-tactics h2 { margin: 0; }
+
+.tactics-item
+{
+    position: relative;
+    text-align: center;
+}
+
+.tactics-item img
+{
+    border-radius: 50%;
+    max-width: 320px;
+    max-height: 320px;
+    transition: all .5s ease-in-out
+}
+.tactics-item h3 { margin: 0; font-size: 1.4em; }
+
+.tactic-description
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.tactics-item:hover img { filter:brightness(30%); }
+.tactics-item:hover .tactic-description { opacity: 1; }
+
+@media (min-width: 768px)
+{
+    .tactics-item img { max-height: 240px; max-width: 240px; }
+    iframe { width: 600px; height: 400px; }
+}
+@media (min-width: 768px)
+{
+    .tip { display: none; }
+    .tactics-item img { max-height: 320px; max-width: 320px; }
+    iframe { width: 800px; height: 600px; }
+}
