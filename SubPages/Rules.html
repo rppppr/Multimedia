@@ -51,33 +51,45 @@
         </div>
         <div class="pieces">
             <div class="pieces-container">
-                <div class="pieces-item piece-1">
-                    <i class="fas fa-chess-pawn"></i>
-                    <h3>Pionek</h3>
-                </div>
-                <div class="pieces-item piece-2">
-                    <i class="fas fa-chess-knight"></i>
-                    <h3>Skoczek</h3>
-                </div>
-                <div class="pieces-item piece-3">
-                    <i class="fas fa-chess-bishop"></i>
-                    <h3>Goniec</h3>
-                </div>
-                <div class="pieces-item piece-4">
-                    <i class="fas fa-chess-rook"></i>
-                    <h3>Wieża</h3>
-                </div>
-                <div class="pieces-item piece-5">
-                    <i class="fas fa-chess-queen"></i>
-                    <h3>Hetman</h3>
-                </div>
+                <a href="#pawn">
+                    <div class="pieces-item piece-1">
+                        <i class="fas fa-chess-pawn"></i>
+                        <h3>Pionek</h3>
+                    </div>
+                </a>
+                <a href="#knight">
+                    <div class="pieces-item piece-2">
+                        <i class="fas fa-chess-knight"></i>
+                        <h3>Skoczek</h3>
+                    </div>
+                </a>
+                <a href="#bishop">
+                    <div class="pieces-item piece-3">
+                        <i class="fas fa-chess-bishop"></i>
+                        <h3>Goniec</h3>
+                    </div>
+                </a>
+                <a href="#rook">
+                    <div class="pieces-item piece-4">
+                        <i class="fas fa-chess-rook"></i>
+                        <h3>Wieża</h3>
+                    </div>
+                </a>
+                <a href="#queen">
+                    <div class="pieces-item piece-5">
+                        <i class="fas fa-chess-queen"></i>
+                        <h3>Hetman</h3>
+                    </div>
+                </a>
+                <a href="#king">
                 <div class="pieces-item piece-6">
                     <i class="fas fa-chess-king"></i>
                     <h3>Król</h3>
                 </div>
+                </a>
             </div>
         </div>
-        <div class="pieces-rules">
+        <div class="pieces-rules" id="pawn">
             <h3>
                 Piony
             </h3>
@@ -101,8 +113,8 @@
                         Bicie w przelocie:
                     </h4>
                     <p>
-                        Jeżeli wrogi pion wykona ruch o 2 pola do przodu i znajdzie się przez to
-                        w tym samym rzędzie co nasz pion, możemy zbić go w następujący sposób:
+                        Jeżeli wrogi pion wykona ruch o 2 pola do przodu i znajdzie się
+                        w tym samym rzędzie co nasz pion, możemy zbić go w ten sposób:
                     </p>
                     <div class="moves-image pawn-special-move">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
@@ -127,7 +139,7 @@
             </div>
         </div>
         <div class="light-pieces-container">
-            <div class="pieces-rules">
+            <div class="pieces-rules" id="knight">
                 <h3>
                     Skoczek
                 </h3>
@@ -140,16 +152,16 @@
                     </p>
                     <div class="moves-image knight-basic-moves">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/knightmove0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
             </div>
-            <div class="pieces-rules">
+            <div class="pieces-rules" id="bishop">
                 <h3>
                     Goniec
                 </h3>
-                <div class="piece-move knight-1">
+                <div class="piece-move bishop-1">
                     <h4>
                         Ruchy podstawowe:
                     </h4>
@@ -164,7 +176,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pieces-rules">
+            <div class="pieces-rules" id="rook">
                 <h3>
                     Wieża
                 </h3>
@@ -177,13 +189,13 @@
                     </p>
                     <div class="moves-image rook-basic-moves">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/rookmove0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="pieces-rules">
+        <div class="pieces-rules" id="queen">
             <h3>
                 Hetman
             </h3>
@@ -196,12 +208,12 @@
                 </p>
                 <div class="moves-image rook-basic-moves">
                     <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                    <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                    <img src="../Images/queenmove0.JPG" class="gambit-image" alt="Pozycja startowa">
                     <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                 </div>
             </div>
         </div>
-        <div class="pieces-rules">
+        <div class="pieces-rules" id="king">
             <h3>
                 Król
             </h3>
@@ -215,7 +227,7 @@
                     </p>
                     <div class="moves-image rook-basic-moves">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/kingmove0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -229,7 +241,7 @@
                     </p>
                     <div class="moves-image rook-basic-moves">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/castlemove0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -243,7 +255,7 @@
                     </p>
                     <div class="moves-image rook-basic-moves">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/checkmove0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -256,7 +268,7 @@
                 Kiedy wiesz, jak się poruszać, dowiedz się, jak wygrywać!
             </h2>
             <p>
-                Poniżej zaprezentuję Ci, jak zbijać figury i jak zamatować króla.
+                Poniżej zaprezentuję Ci, jak zbijać figury i jak zamatować króla. "Danie mata" jest celem gry, gracz który to zrobi - zwycięża!
             </p>
             <div class="taking-container">
                 <div class="taking-item taking-1">
@@ -267,9 +279,9 @@
                         Pion, jako jedyna bierka w grze, zbija w innym kierunku, niż kierunek ruchu.
                         Pion zbija na skos.
                     </p>
-                    <div class="taking-image pawn-taking-image">
+                    <div class="moves-image pawn-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/pawntaking0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -281,9 +293,9 @@
                         Skoczek zbija bierkę i zajmuje jej miejsce zgodnie ze swoim ruchem, warto to wykorzystać
                         do "widełek".
                     </p>
-                    <div class="taking-image pawn-taking-image">
+                    <div class="moves-image pawn-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/knighttaking0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -295,9 +307,9 @@
                         Dzięki szybkiemu rozwojowi, gońce świetnie nadają się do zastawiania
                         "ataków z odsłony", np:. tak jak poniżej:
                     </p>
-                    <div class="taking-image bishop-taking-image">
+                    <div class="moves-image bishop-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/bishoptaking0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -308,9 +320,9 @@
                     <p>
                         Wieże świetnie kontrolują duże fragmenty planszy, zbijając figury zgodnie ze swoim ruchem.
                     </p>
-                    <div class="taking-image pawn-taking-image">
+                    <div class="moves-image pawn-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/rooktaking0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -321,9 +333,9 @@
                     <p>
                         Najsilniejsza bierka w grze znakomicie sprawdza się, gdy chcemy dobić rywala.
                     </p>
-                    <div class="taking-image pawn-taking-image">
+                    <div class="moves-image pawn-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/queentaking0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -335,9 +347,9 @@
                         Król zdecydowanie częściej broni się, niż atakuje, ale oczywiście również on potrafi
                         zbić bierki przeciwnika.
                     </p>
-                    <div class="taking-image pawn-taking-image">
+                    <div class="moves-image pawn-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/kingtaking0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -349,9 +361,9 @@
                         Gracz, który dostanie takiego szacha, że nie może się nigdzie ruszyć królem lub zasłonić
                         inną bierką, przegrywa.
                     </p>
-                    <div class="taking-image pawn-taking-image">
+                    <div class="moves-image pawn-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/mate0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -361,11 +373,11 @@
                     </h3>
                     <p>
                         W momencie, gdy po ruchu jednego gracza, żadna z bierek drugiego zawodnika nie może się ruszyć,
-                        następuje remis - zwany patem.
+                        następuje remis.
                     </p>
-                    <div class="taking-image pawn-taking-image">
+                    <div class="moves-image pawn-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/pat0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>
@@ -375,11 +387,11 @@
                     </h3>
                     <p>
                         Jeśli któryś z graczy pomyli się, wykonując ruch który nie jest powiązany z daną bierką,
-                        zgodnie z zasadami przegrywa przez walkower.
+                        przegrywa przez walkower.
                     </p>
-                    <div class="taking-image pawn-taking-image">
+                    <div class="moves-image pawn-taking-image">
                         <span class="button button-previous"><i class="fas fa-arrow-left"></i></span>
-                        <img src="Images/kingsgambit0.JPG" class="gambit-image" alt="Pozycja startowa">
+                        <img src="../Images/fail0.JPG" class="gambit-image" alt="Pozycja startowa">
                         <span class="button button-next"><i class="fas fa-arrow-right"></i></span>
                     </div>
                 </div>

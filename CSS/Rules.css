@@ -15,6 +15,7 @@
     width: 100%;
     height: 100%;
 }
+.pieces-container a { text-decoration: none; }
 .pieces-item
 {
     color:white;
@@ -32,7 +33,7 @@
     transition: all 1s ease-in-out;
 }
 .pieces-item h3, .taking-item h3 { font-size: 1.6em; transition: all 1s ease-in-out; }
-.pieces-item:hover { border: 3px solid yellow; }
+.pieces-item:hover { border: 3px solid yellow; cursor: pointer; }
 .pieces-item:hover i { transform: rotateY(180deg); color:yellow; }
 .pieces-item:hover h3 { color:yellow; }
 .pieces-rules
@@ -50,8 +51,8 @@
 
 .moves-image img
 {
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 350px;
+    max-width: 350px;
 }
 .button
 {
@@ -65,3 +66,14 @@
 .button:hover { color:yellow; }
 .button-previous { left: 0; display: none; }
 .button-next {right:0; display: block; }
+
+@media (min-width: 768px)
+{
+    .moves-image img { max-width: 240px; max-height: 240px }
+}
+
+@media (min-width: 1024px)
+{
+    .moves-image img { max-width: 320px; max-height: 320px }
+}
+
