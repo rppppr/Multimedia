@@ -34,6 +34,24 @@
 .tactic-2 { grid-row:2/3; }
 .tactic-3 { grid-row:3/4; }
 
+.moments-containter
+{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
+}
+
+.moment-1 { grid-row: 1/2; }
+.moment-2 { grid-row: 2/3; }
+.moment-3 { grid-row: 3/4; }
+.moment-4 { grid-row: 4/5; }
+.moment-5 { grid-row: 5/6; }
+.moment-6 { grid-row: 6/7; }
+
 @media (min-width: 768px)
 {
     .oponents-container, .favourites-container
@@ -86,6 +104,14 @@
     .tactic-1 { grid-column: 1/2; grid-row: 1/2; }
     .tactic-2 { grid-column: 2/3; grid-row: 1/2; }
     .tactic-3 { grid-column: 3/4; grid-row: 1/2; }
+
+    .moments-containter { grid-template-columns:repeat(2,1fr); grid-template-rows: repeat(3,1fr); }
+    .moment-1 { grid-column: 1/2; grid-row: 1/2; }
+    .moment-2 { grid-column: 2/3; grid-row: 1/2; }
+    .moment-3 { grid-column: 1/2; grid-row: 2/3; }
+    .moment-4 { grid-column: 2/3; grid-row: 2/3; }
+    .moment-5 { grid-column: 1/2; grid-row: 3/4; }
+    .moment-6 { grid-column: 2/3; grid-row: 3/4; }
 }
 @media (min-width: 1024px)
 {

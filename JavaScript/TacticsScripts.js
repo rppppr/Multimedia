@@ -28,7 +28,9 @@ playMessage.addEventListener('click',()=>
        audioMessage.pause();
        playStop = 0;
    }
+   audioMessage.onended = ()=> { stopMessage.style.display = 'none'; startMessage.style.display = 'block'; };
 });
+
 
 const showTranscription = document.getElementsByClassName('transcription')[0];
 const transcriptionText = document.getElementsByClassName('transcription-text')[0];
@@ -64,7 +66,6 @@ answerCheck.addEventListener('click',()=>
     else
     {
         answer.value = "";
-        answer.placeholder = "Niestety źle, spróbój jeszcze raz!";
+        answer.placeholder = "Niestety źle, spróbuj jeszcze raz!";
     }
-
 });
